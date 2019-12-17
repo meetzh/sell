@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+
+
+#项目打包jar
+#mvn clean package -Dmaven.test.skip=true
+#项目启动
+#java -jar -Dserver.port=8080 -Dspring.profiles.active=prod sell.jar
